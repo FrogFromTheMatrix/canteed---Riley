@@ -12,9 +12,12 @@ show_menu = input(
 
 if show_menu == "yes" or show_menu == "y":
  print("You can buy a pie for $4.50 or a burger for $7.89, What would you like to buy? ")
-order = input().lower()
+ order = input().lower()
 
-if order == "burger":
+#Menu options, Riley Sullivan. 6/05/22. Version 4. The purpose of this is to show the user the menu options. It succeeded in doing so
+
+
+ if order == "burger":
       print("Thank you for ordering the burger! That will be $7.89")
 
  elif order == "pie":
@@ -24,23 +27,11 @@ if order == "burger":
       print("Thank you visiting us at Fraser High School Canteen!")
 
 
- elif show_menu == "n" or show_menu == "no":
+
+
+elif show_menu == "n" or show_menu == "no" :
   print("Thank You for visiting the Fraser High school Canteen!")
+
+
 else:
   print("Thank You for visiting the Fraser High school Canteen!")
-  
-        
-
-
-#Menu options, Riley Sullivan. 6/05/22. Version 4. The purpose of this is to show the user the menu options. It succeeded in doing so
-
-order = input().lower()
-
-if order == "burger":
-    print("Thank you for ordering the burger! That will be $7.89")
-
-elif order == "pie":
-    print("Thank you for ordering the pie! That will be $4.50")
-
-else:
-    print("Thank you visiting us at Fraser High School Canteen!")
